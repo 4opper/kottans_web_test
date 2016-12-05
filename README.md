@@ -4,5 +4,4 @@ udacity.com <br />
 
 learngitbranching.js.org <br />
 [Screenshot of completed learngitbranching main part](https://github.com/4opper/kottans_web_test/blob/master/task_0/main.png) <br />
-
-
+[Screenshot of completed learngitbranching remote part](https://github.com/4opper/kottans_web_test/blob/master/task_0/remote.png) <br />
