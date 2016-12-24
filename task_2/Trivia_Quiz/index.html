@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" ng-app="Quiz">
+  <head>
+    <title>Lunch Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+<body ng-controller="QuizController" ng-init="getQuestion()">
+   <div class="container">
+     <h1>Quiz</h1>
+     <div class="quiz">
+        <div class="correct-answers">Correct Answers: {{correctAnswers}}</div>
+        <div class="total-questions">Total Questions: {{totalQuestions-1}}</div> <br/>
+        <button ng-click="getQuestion()" class="btn btn-info btn-block skip">Skip</button>
+        <h2>Question # {{questionObj.id}}</h2>
+        <h3>Category: {{questionObj.category.title}}</h3>
+        <div class="question">Question: <strong>{{questionObj.question}}</strong></div>
+        <div class="correct" ng-show="isRight">Correct</div>
+        <div class="wrong" ng-show="isWrong">Wrong</div>
+        <div class="answer-area">
+          <a class="btn btn-default letters" ng-repeat="answerLetter in playerAnswer track by $index" ng-click="pushBack($index)">
+            {{answerLetter}}
+          </a>
+        </div>
+        <div class="answer-pool">
+          <a class="btn btn-default letters" ng-repeat="letter in shuffled track by $index" ng-click="choose($index)">
+            {{letter}}
+          </a>
+        </div>
+        
+        <button class="next btn btn-success btn-block" ng-click="getQuestion()" ng-show="isRight">Next question</button>
+      </div>
+   </div>
+  <script src="js/angular.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
