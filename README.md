@@ -5,3 +5,7 @@ udacity.com <br />
 learngitbranching.js.org <br />
 [Screenshot of completed learngitbranching main part](https://github.com/4opper/kottans_web_test/blob/master/task_0/main.png) <br />
 [Screenshot of completed learngitbranching remote part](https://github.com/4opper/kottans_web_test/blob/master/task_0/remote.png) <br />
+
+##**Task 2**:
+[Freecodecamp account](https://www.freecodecamp.com/4opper) <br />
+[A custom client for Trivia Quiz API](https://4opper.github.io/kottans_web_test/task_2/Trivia_Quiz/) <br />
