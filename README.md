@@ -6,6 +6,7 @@
 ##**Task 1**:
 [Linux Command Line Basics](https://github.com/4opper/kottans_web_test/blob/master/task_1/linuxcli.png) <br />
 [Configuring Linux Web Servers](https://github.com/4opper/kottans_web_test/blob/master/task_1/webserver.png) <br />
+[Networking](https://github.com/4opper/kottans_web_test/blob/master/task_1/networking.png) <br />
 
 ##**Task 2**:
 [Freecodecamp account](https://www.freecodecamp.com/4opper) <br />
@@ -15,3 +16,4 @@
 [Codecademy Ruby course](https://github.com/4opper/kottans_web_test/blob/master/task_3/codecademy_Ruby.png) <br />
 [Ruby Koans](https://github.com/4opper/kottans_web_test/blob/master/task_3/rubykoans.png) <br />
 [Dynamic web application with Sinatra](https://github.com/4opper/kottans_web_test/blob/master/task_3/udacity_sinatra.png) <br />
+[CS101](https://github.com/4opper/kottans_web_test/blob/master/task_3/CS101.png) <br />
